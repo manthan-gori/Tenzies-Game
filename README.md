@@ -3,7 +3,7 @@
 ## 🎮 Gameplay Preview
 
 <p align="center">
-  <img src="./tenzies-demo.gif" alt="Tenzies Game Demo" />
+  <img src="./public/Tenzies.gif" alt="Tenzies Game Demo" />
 </p>
 
 
