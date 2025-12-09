@@ -18,14 +18,13 @@ The goal is simple: **Roll until all dice are the same number**, and click a die
 
 ## 🛠 Tech Stack
 
-|------------------|------------------------------------------------|
-| Tool / Library   | Use                                            |
+| Tool / Library   | Use |
 |------------------|------------------------------------------------|
 | React            | UI Components & state management               |
 | Vite             | Development environment & bundler              |
 | nanoid           | Unique ID generation                           |
 | react-confetti   | Win animation effect                           |
-|------------------|------------------------------------------------|
+
 ---
 
 ## 📥 Setup & Installation
