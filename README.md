@@ -1,20 +1,44 @@
-<<<<<<< HEAD
-# React + Vite
+# 🎲 Tenzies Game (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun and interactive dice game built with **React + Vite**.  
+The goal is simple: **Roll until all dice are the same number**, and click a die to **freeze** its value between rolls. Once all dice match and are held, you win! 🎉
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 🎯 Roll 10 dice and try to make all values equal
+- ✋ Click dice to hold them in place
+- 🎉 Confetti animation when you win
+- 🔁 Roll only the unheld dice
+- 🆔 Unique IDs using `nanoid`
+- ⚡ Built using **React** + **Vite** for fast performance
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Tenzies-Game
->>>>>>> 6a6bcf5be677f06cfe437dece56260a23299ea3c
+|------------------|------------------------------------------------|
+| Tool / Library   | Use                                            |
+|------------------|------------------------------------------------|
+| React            | UI Components & state management               |
+| Vite             | Development environment & bundler              |
+| nanoid           | Unique ID generation                           |
+| react-confetti   | Win animation effect                           |
+|------------------|------------------------------------------------|
+---
+
+## 📥 Setup & Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/manthan-gori/Tenzies-Game.git
+
+# Move into the project folder
+cd Tenzies-Game
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
